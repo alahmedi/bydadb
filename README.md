@@ -11,5 +11,5 @@ You must use this option before using ADB installation. This option downloads th
 You can enter in the IP of the car (it is found in Settings > Wi-Fi > tap the info button of your connected Wi-Fi network > IP Address), then you select the APKs you want to install.
 
 # todo (ignore this) 
-write full guide
-make it more user friendly
+* write full guide
+* make it more user friendly
