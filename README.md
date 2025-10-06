@@ -16,28 +16,28 @@ You must install Python, Android Platform Tools (includes ADB), and the "adbutil
 ### Python
 
 * Windows
-- You can get it from the Microsoft store.
+  You can get it from the Microsoft store.
 
 * macOS/Linux
-- It comes pre-installed, you can skip this.
+  It comes pre-installed, you can skip this.
 
 ### Android Platform Tools
 
 * Windows
-- You can use the APT installer, provided by https://github.com/cli-stuff/platform-tools-installer-windows
-- Run this command in PowerShell: powershell -ExecutionPolicy Bypass -c "irm cutt.ly/platform-tools | iex"
+  You can use the APT installer, provided by https://github.com/cli-stuff/platform-tools-installer-windows
+  Run this command in PowerShell: powershell -ExecutionPolicy Bypass -c "irm cutt.ly/platform-tools | iex"
 
 * macOS
-- You can use HomeBrew to install APT.
-- Install HomeBrew if you don't already have it, run this in Terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-- Then, run this command: brew install android-platform-tools
+  You can use HomeBrew to install APT.
+  Install HomeBrew if you don't already have it, run this in Terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  Then, run this command: brew install android-platform-tools
 
 * Linux
-- It depends on your distro and your package manager. Please check and install.
+  It depends on your distro and your package manager. Please check and install.
 
-### adbutils Python library
-- Run this in PowerShell/Terminal: pip install adbutils
-- (If you're on Windows, you must already have Python installed.)
+### adbutils Python library 
+  Run this in PowerShell/Terminal: pip install adbutils
+  (If you're on Windows, you must already have Python installed.)
 
 ## todo (ignore this) 
 * write full guide
