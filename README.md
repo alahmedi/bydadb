@@ -10,32 +10,31 @@ You must use this option before using ADB installation. This option downloads th
 ### Installing APKs with ADB
 You can enter in the IP of the car (it is found in Settings > Wi-Fi > tap the info button of your connected Wi-Fi network > IP Address), then you select the APKs you want to install.
 
-## Requirments
+## Requirements
 You must install Python, Android Platform Tools (includes ADB), and the "adbutils" Python library (allows the script to interact with ADB).
 
 ### Python
 
-#### Windows
+* Windows
 You can get it from the Microsoft store.
 
-#### macOS/Linux
+* macOS/Linux
 It comes pre-installed, you can skip this.
 
 ### Android Platform Tools
 
-#### Windows
+* Windows
 You can use the APT installer, provided by https://github.com/cli-stuff/platform-tools-installer-windows
 Run this command in PowerShell: powershell -ExecutionPolicy Bypass -c "irm cutt.ly/platform-tools | iex"
 
-#### macOS
+* macOS
 You can use HomeBrew to install APT.
 Install HomeBrew if you don't already have it, run this in Terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 Then, run this command: brew install android-platform-tools
-#### Linux
+* Linux
 It depends on your distro and your package manager. Please check and install.
 
 ### adbutils Python library
-
 Run this in PowerShell/Terminal: pip install adbutils
 (If you're on Windows, you must already have Python installed.)
 
